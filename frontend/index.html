@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SQL Chat Assistant</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>SQL Chat Assistant</h1>
+        <p>Ask a question related to employees or departments!</p>
+        
+        <!-- Form for asking questions -->
+        <form id="queryForm">
+            <label for="queryInput">Your Question:</label>
+            <input type="text" id="queryInput" name="query" required placeholder="E.g., Show me all employees in Sales">
+            <button type="submit">Ask</button>
+        </form>
+
+        <!-- Output Section -->
+        <div id="output" class="output">
+            <h3>Generated SQL Query:</h3>
+            <pre id="generatedSql"></pre>
+            
+            <h3>Results:</h3>
+            <table id="resultsTable">
+                <thead>
+                    <tr id="tableHeaders"></tr>
+                </thead>
+                <tbody id="tableBody"></tbody>
+            </table>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
