@@ -14,7 +14,7 @@ The **SQL Chat Assistant** is a Python-based web application that helps users in
 ## Hosted Link
 
 You can access the deployed SQL Chat Assistant at the following URL:
-- **Chat UI** [https://sqlitechatagentfront.onrender.com/]([https://sqlitechatagentfront.onrender.com/]) 
+- **Chat UI:** [https://sqlitechatagentfront.onrender.com/]([https://sqlitechatagentfront.onrender.com/]) 
 
 ## How It Works
 
